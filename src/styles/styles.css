@@ -5,9 +5,10 @@
     padding: 0px;
     font-family: Poppins;
 }
-#root{
+html{
     background-color: black;
 }
+
 
 .main-container{
     height: 100%;
@@ -51,10 +52,42 @@
 .timer{
     margin: auto;
     display: grid;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: 5% 75% 20%;
     height: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     color: white;
 }
 
+.timer-row-1{
+    height: 20px;
+}
+.timer-row-2{
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+}
+.timer-time{
+    
+    
+    font-size: 40vh;
+    justify-content: space-around;
+    margin: auto;
+    align: center;
+}
+.timer-controls{
+    min-height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    
+}
+.before-start{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    justify-content: space-evenly;
+    
+}
+.before-start > button{
+    display: grid;
+}
