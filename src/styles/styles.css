@@ -3,20 +3,58 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Poppins;
+}
+#root{
+    background-color: black;
 }
 
+.main-container{
+    height: 100%;
+  width: 100%;
+  margin: 0;
+
+    
+}
 
 .header{
     display: flex;
+    flex-direction: row;
     height: 50px;
     /* border: px solid black; */
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    
+    top: 0;
+    justify-content: space-between;
+    margin: auto;
+    
 }
+.header-left{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header-img > img{
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+}
+.header-name{
+    color: white;
+    justify-content: baseline;
+    align-content: center;
+    margin: auto;
+}
+
 .timer{
+    margin: auto;
     display: grid;
     grid-template-rows: 75% 25%;
     height: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    color: white;
 }
+
